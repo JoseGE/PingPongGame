@@ -221,8 +221,8 @@
 })();
 //creacion de elementos
     var board = new Board(800,400);
-    var bar_1 = new Bar(20, 100, 30, 100, board);
-    var bar_2 = new Bar(735, 100, 30, 100, board);
+    var bar_1 = new Bar(20, 100, 30, 90, board);
+    var bar_2 = new Bar(735, 100, 30, 90, board);
     var canvas = document.getElementById('canvas');
     var board_view = new BoardView(canvas, board);
     var ball = new Ball(350,100,10,board);
